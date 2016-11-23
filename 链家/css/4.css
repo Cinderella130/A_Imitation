@@ -1,0 +1,77 @@
+/*第一部分   头部*/
+
+.header-one{
+    height: 53px;
+    background: #00ae66;
+    line-height: 42px;
+}
+.header-one a{
+    color: #fff;
+    margin-left: 16px;
+}
+.header-one .top{
+    line-height: 30px;
+    margin-left: 10px;
+}
+.header-one .top span{
+    color: #fff;
+}
+.header-one .top p{
+    margin-top: -14px;
+    color: #fff;
+}
+
+.row-two{
+    height:60px;
+    width:100%;
+    background:#f4f4f4;
+    overflow:hidden;
+    margin-top:0px;
+}
+.row-two1{
+    margin:13px 15px;
+}
+.row-three{
+    height:50px;
+    /*width:100%;*/
+    margin:1px 0;
+}
+.border{
+    height:100%;
+    width:100%;
+    border:2px solid #C5C5C5;
+    text-align:center;
+}
+.border-td{
+    border-right:2px solid #C5C5C5;
+}
+.border span{
+    color:#C5C5C5;
+    margin:0 10px;
+}
+/*热门房源*/
+.hot-rooms>.hot-list>.media{
+    padding:14px 11px;
+    border-bottom:1px solid #c5c5c5;
+    position:relative;
+}
+.hot-rooms>.hot-list .media-heading{
+    font-weight:bolder;
+    margin-bottom:0;
+}
+.hot-rooms>.hot-list .media-body>p{
+    margin:0;
+    font-size:12px;
+}
+.hot-rooms>.hot-list .media-body .label{
+    margin-top:4px;
+    display:inline-block;
+}
+.hot-list .red{
+    position:absolute;
+    right:5px;
+    top:40px;
+    color:red;
+    font-size:20px;
+}
+

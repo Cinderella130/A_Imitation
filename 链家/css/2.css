@@ -1,0 +1,151 @@
+
+/*清除/设置*/
+*{
+    font-family:微软雅黑;
+}
+a{
+    color:#fff;
+}
+a:hover,a:focus{
+    color:#fff;
+    text-decoration:none;
+}
+/*注册页面*/
+.header-common{
+    height:50px;
+    background:#00ae66;
+    margin:0 -15px;
+    position:relative;
+}
+.logo{
+    width:145px;
+    height:20px;
+    position:absolute;
+    left:10px;
+    top:15px;
+}
+.logo img{
+    width:85px;
+    height:20px;
+}
+.singleLine{
+    margin:0;
+}
+.left,.right,.last{
+    border-bottom:1px solid #d3d3d3;
+    height:50px;
+    line-height:50px;
+}
+.msg{
+    line-height:50px;
+}
+.borderless{
+    border:none;
+    height:48px;
+    box-shadow:none;
+}
+.btn-row{
+    margin:10px;
+}
+.btn-row button{
+    background:#00ae66;
+    /*border-radius:0;*/
+}
+.btn-row :nth-child(2){
+    text-align:right;
+}
+.txt-green{
+    color:#39ac93;
+}
+.main-body a{
+    color:#000;
+}
+
+
+/*page login*/
+.tabs{
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    padding:0 15px;
+}
+.border div{
+    height:5px;
+    background:#d1d1d1;
+}
+.border div.active{
+    background:#39ac6a;
+}
+.btn-row a{
+    color:#000;
+}
+
+/*6-detail*/
+#header{
+    background-color: #00AE66;
+}
+#header>div>div{
+    background-color:#00AE66;
+    color:#fff;
+    padding: 13px 0;
+}
+#header>div>div:hover{
+    cursor: pointer;
+}
+#header>div>a>img{
+    margin: 7px 0;
+}
+#header>div>a>ul{
+    margin: 5px 5px;
+}
+/* 第二行 */
+div#two_row>img{
+    width:100%;
+}
+#two-row{
+    height:231px;
+    width:100%;
+}
+#pic{
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    background-color: #F9F9F9;
+}
+#pic>div>div{
+    padding:18px 5px 0 0;
+}
+#pic>div>div:nth-child(2){
+    border-left: 1px solid #DCDCDC;
+}
+/* 第三行 */
+#introduce{
+    border-bottom: 1px solid #DCDCDC;
+}
+#introduce>div{
+    margin: 10px 0;
+    border-right: 1px solid #DCDCDC;
+}
+#introduce>div:last-child{
+    border-right:none;
+}
+#introduce>div>ul>li:nth-child(2){
+    color:#DE6843;
+}
+/* 第四行 */
+#house_info>div.row{
+    height:50px;
+    border-bottom: 1px solid #DCDCDC;
+    line-height: 50px;
+}
+.text{
+    border:1px solid;
+    padding: 1px 5px;
+}
+.text-orange{
+    color:orange;
+    border-color: orange;
+}
+.text-blue{
+    color:blue;
+    border-color: blue;
+}

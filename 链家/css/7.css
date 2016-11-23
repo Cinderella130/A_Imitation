@@ -1,0 +1,47 @@
+/*第一部分   头部*/
+.header-one a{
+    color:#fff;
+}
+.header-one{
+    height: 42px;
+    background: #00ae66;
+    line-height: 42px;
+}
+.header-one .top{
+    line-height: 30px;
+    margin-left: 10px;
+}
+.header-one .top span{
+    color: #fff;
+}
+.header-one .top p{
+    margin-top: -14px;
+    color: #fff;
+}
+
+
+/*登录注册*/
+.row-two{
+     height:131px;
+     background:url("../images/10-01.png") no-repeat;
+     -webkit-background-size:cover;
+     background-size:cover;
+ }
+
+
+/*列表*/
+.singleLine{
+    margin:0;
+}
+.left,.last{
+    border-bottom:1px solid #d3d3d3;
+    height:50px;
+    line-height:50px;
+}
+.right{
+    margin-left:-10px;
+}
+.right a{
+    color:#000;
+    text-decoration:none;
+}
